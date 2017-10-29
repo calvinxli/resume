@@ -7,7 +7,8 @@ import {
     MatChipsModule,
     MatTabsModule,
     MatIconModule,
-    MatGridListModule
+    MatGridListModule,
+    MatButtonModule
 } from '@angular/material';
 
 import { AppComponent } from './app.component';
@@ -36,7 +37,8 @@ import { AboutComponent } from './about/about.component';
     MatTabsModule,
     BrowserAnimationsModule,
     MatIconModule,
-    MatGridListModule
+    MatGridListModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

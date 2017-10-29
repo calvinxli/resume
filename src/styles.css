@@ -1,6 +1,11 @@
 @import "~@angular/material/prebuilt-themes/pink-bluegrey.css";
 /* @import "~@angular/material/prebuilt-themes/indigo-pink.css"; */
 
+.card-title {
+    display: inline-block;
+    padding-right: 1vh;
+}
+
 mat-card {
     margin: 1vh;
 }
