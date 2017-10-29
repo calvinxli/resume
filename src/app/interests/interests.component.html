@@ -1,0 +1,10 @@
+<mat-card *ngFor="let interest of interests">
+    <mat-card-title>
+        <h1>{{interest.category}}</h1>
+    </mat-card-title>
+    <mat-card-content>
+            <ul>
+                <li *ngFor="let description of interest.descriptions">{{description}}</li>
+            </ul>
+    </mat-card-content>
+</mat-card>

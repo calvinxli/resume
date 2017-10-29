@@ -1,0 +1,27 @@
+<mat-card *ngFor="let experience of experiences">
+    <mat-card-header>
+        <mat-card-title>
+            <mat-icon class="business-icon">business</mat-icon>
+            <h1>{{experience.company}}</h1>
+        </mat-card-title>
+        <mat-card-subtitle>
+            <mat-icon>person</mat-icon> {{experience.role}}
+            <mat-icon>place</mat-icon> {{experience.location}}
+            <mat-icon>date_range</mat-icon> {{experience.startDate | date:'y MMM'}} - {{experience.endDate ? (experience.endDate | date:'y MMM') : 'Present'}}
+        </mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+        <ul>
+            <li *ngFor="let highlight of experience.highlights">
+                {{highlight}}
+            </li>
+        </ul>
+    </mat-card-content>
+    <mat-card-footer>
+        <mat-chip-list>
+            <mat-chip *ngFor="let tech of experience.technologies" selected="true">
+                {{tech}}
+            </mat-chip>
+        </mat-chip-list>
+    </mat-card-footer>
+</mat-card>

@@ -1,0 +1,10 @@
+@import "~@angular/material/prebuilt-themes/pink-bluegrey.css";
+/* @import "~@angular/material/prebuilt-themes/indigo-pink.css"; */
+
+mat-card {
+    margin: 1vh;
+}
+
+mat-card-header * {
+    vertical-align: middle;
+}

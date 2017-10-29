@@ -1,0 +1,10 @@
+.business-icon {
+    float: left;
+    padding-right: 1vh;
+}
+
+mat-card-footer {
+    padding-left: 4vh;
+    padding-right: 4vh;
+    padding-bottom: 4vh;
+}

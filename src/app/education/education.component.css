@@ -1,0 +1,12 @@
+.title-icon {
+    float: left;
+    padding-right: 1vh;
+}
+
+mat-card-content {
+    padding-left: 1vh;
+}
+
+mat-card-header * {
+    vertical-align: middle;
+}

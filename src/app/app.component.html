@@ -1,0 +1,39 @@
+<!-- <nav mat-tab-nav-bar>
+    <a mat-tab-link
+        *ngFor="let route of appRoutes"
+        [routerLink]="route.path"
+        routerLinkActive #rla="routerLinkActive"
+        [active]="rla.isActive">
+        Hello
+     </a>
+</nav> 
+<router-outlet></router-outlet> -->
+
+<mat-tab-group>
+    <mat-tab>
+        <ng-template mat-tab-label>
+            <span>Calvin Li</span>
+        </ng-template>
+        <div class="tab-content">
+            <app-about></app-about>
+        </div>
+    </mat-tab>
+    <mat-tab label="Experience">
+        <div class="tab-content">
+            <app-experience></app-experience>
+        </div>
+    </mat-tab>
+    <mat-tab label="Knowledge/Skills">
+        <app-knowledge-skills></app-knowledge-skills>
+    </mat-tab>
+    <mat-tab label="Education">
+        <app-education></app-education>
+    </mat-tab>
+    <mat-tab label="Interests">
+        <app-interests></app-interests>
+    </mat-tab>
+</mat-tab-group>
+
+<footer>
+    <p>Last modified: {{ lastModified | date:'y MMMM dd' }}</p>
+</footer>
