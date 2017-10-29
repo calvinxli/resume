@@ -9,4 +9,6 @@
 footer {
     text-align: center;
     color: rgba(255,255,255,.7);
+    font-size: 1.2vh;
+    font-family: Roboto,Helvetica Neue,sans-serif;
 }
