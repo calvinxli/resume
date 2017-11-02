@@ -1,5 +1,5 @@
-import { ISkillSet } from '../../types/ISkillset';
-import { skillSets } from '../../api/skill-sets';
+import { ISkillSet } from '../types/ISkillset';
+import { skillSets } from '../api/skill-sets';
 import { Component, OnInit } from '@angular/core';
 
 @Component({

@@ -1,6 +1,6 @@
-import { IAbout } from '../../types/IAbout';
+import { IAbout } from '../types/IAbout';
 import { Component, OnInit } from '@angular/core';
-import { about } from '../../api/about';
+import { about } from '../api/about';
 
 @Component({
   selector: 'app-about',

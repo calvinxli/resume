@@ -1,6 +1,6 @@
-import { IInterest } from '../../types/IInterest';
+import { IInterest } from '../types/IInterest';
 import { Component, OnInit } from '@angular/core';
-import { interests } from '../../api/interests';
+import { interests } from '../api/interests';
 @Component({
   selector: 'app-interests',
   templateUrl: './interests.component.html',
