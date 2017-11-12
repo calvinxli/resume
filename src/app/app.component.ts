@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-    appRoutes: Routes = appRoutes;
-    lastModified: Date = new Date(2017, 9, 28);
+    // appRoutes: Routes = appRoutes;
+    // lastModified: Date = new Date(2017, 9, 28);
 }
