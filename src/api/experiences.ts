@@ -32,7 +32,7 @@ export const experiences: IExperience[] = [
     {
         company: 'Intel',
         location: 'Hillsboro, OR',
-        role: 'Software Engineer Intern',
+        role: 'Software Engineer Intern (MECOP)',
         startDate: new Date(2015, 5),
         endDate: new Date (2015, 11),
         highlights: [
@@ -51,7 +51,7 @@ export const experiences: IExperience[] = [
     {
         company: 'ON Semiconductor',
         location: 'Gresham, OR',
-        role: 'Computer-Integrated Manufacturing Intern',
+        role: 'Software Development Engineer Intern (MECOP)',
         startDate: new Date(2014, 2),
         endDate: new Date (2014, 8),
         highlights: [
