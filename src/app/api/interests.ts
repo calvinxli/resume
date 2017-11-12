@@ -8,7 +8,8 @@ export const interests: IInterest[] = [
             'React',
             'Angular',
             'AWS',
-            'Azure'
+            'Azure',
+            'Apache Kafka'
         ]
     },
     {

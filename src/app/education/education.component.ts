@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ISchool } from '../../types/ISchool';
-import { education } from '../../api/education';
+import { ISchool } from '../types/ISchool';
+import { education } from '../api/education';
 
 @Component({
   selector: 'app-education',
