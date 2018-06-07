@@ -13,3 +13,7 @@ mat-card {
 mat-card-header * {
     vertical-align: middle;
 }
+
+::-webkit-scrollbar { 
+    display: none; 
+}
