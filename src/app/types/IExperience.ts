@@ -5,5 +5,5 @@ export interface IExperience {
     startDate: Date;
     endDate?: Date;
     highlights: string[];
-    technologies: string[];
+    technologies: string;
 }

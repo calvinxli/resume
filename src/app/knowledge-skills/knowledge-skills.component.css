@@ -2,10 +2,6 @@ mat-chip {
     max-width: 10vh;
 }
 
-mat-card {
-    display: inline-block;
-}
-
 .card-container mat-card {
     vertical-align: top;
 }

@@ -19,8 +19,8 @@
     </mat-card-content>
     <mat-card-footer>
         <mat-chip-list>
-            <mat-chip *ngFor="let tech of experience.technologies" selected="true">
-                {{tech}}
+            <mat-chip *ngFor="let tech of experience.technologies.split(',')" selected="true">
+                {{tech.trim()}}
             </mat-chip>
         </mat-chip-list>
     </mat-card-footer>

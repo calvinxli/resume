@@ -2,11 +2,26 @@ import { IExperience } from '../types/IExperience';
 
 export const experiences: IExperience[] = [
     {
+        company: '3Sharp',
+        location: 'Redmond, WA',
+        role: 'Software Engineer',
+        startDate: new Date(2018, 1),
+        endDate: null,
+        highlights: [
+            'Contribute towards release requirements of the 3Sharp Demo Platform.',
+            'Extend the Demo Platform Services by adding the capability of provisioning and managing virtual machines using Azure Resource Manager templates.',
+            'Design and implement a system which allows a cloud-hosted service to control and monitor active virtual machines using Azure Service Bus.',
+            'Create REST endpoints using Web API.',
+            'Create and update Angular components for the Microsoft Demos Portal.'
+        ],
+        technologies: 'C#, .NET, .NET Core, Web API, Azure, Cosmos DB, Service Bus, Angular'
+    },
+    {
         company: 'Grass Valley',
         location: 'Hillsboro, OR',
         role: 'Software Engineer',
         startDate: new Date(2016, 3),
-        endDate: null,
+        endDate: new Date(2016, 0),
         highlights: [
             'Contribute towards release requirements of the GV STRATUS software.',
             'Implement new features for GV STRATUS using C#, .NET, WCF RESTful services, WPF and SQL Server.',
@@ -15,19 +30,7 @@ export const experiences: IExperience[] = [
             'Create an automation framework using Selenium for testing the GV STRATUS Web Client. Reduced manual testing effort and made it easier to create/maintain tests.',
             'Create unit tests using NUnit, Unity, and FakeItEasy.'
         ],
-        technologies: [
-            'C#',
-            '.NET',
-            'WCF',
-            'WPF',
-            'SQL Server',
-            'Fody',
-            'Selenium',
-            'FlaUI',
-            'NUnit',
-            'Unity',
-            'FakeItEasy'
-        ]
+        technologies: 'C#, .NET, WCF, WPF, SQL Server, Fody, Selenium, FlaUI, NUnit, Unity, FakeItEasy'
     },
     {
         company: 'Intel',
@@ -40,13 +43,7 @@ export const experiences: IExperience[] = [
             'Automate the process of sending/receiving data through UART using python.',
             'Debug and enhance multi-threaded WPF applications.'
         ],
-        technologies: [
-            'C#',
-            '.NET',
-            'WPF',
-            'Python',
-            'C'
-        ]
+        technologies: 'C#, .NET, WPF, Python, C'
     },
     {
         company: 'ON Semiconductor',
@@ -58,15 +55,6 @@ export const experiences: IExperience[] = [
             'Create web forms using ASP.NET and C#. Automate the process of submitting wafer defect reports; improve the effectiveness and efficiency of the quality control process. Convert web applications from PHP to ASP.NET.',
             'Eliminate the need of a third party software. Create a C# console app that parses wafer data and uploads the resulting files to a server via FTP where the data will be used to analyze silicon wafer defects.'
         ],
-        technologies: [
-            'C#',
-            '.NET',
-            'ASP.NET',
-            'JavaScript',
-            'JQuery',
-            'CSS',
-            'PHP',
-            'HTML'
-        ]
+        technologies: 'C#, .NET, ASP.NET, JavaScript, JQuery, PHP'
     }
 ];

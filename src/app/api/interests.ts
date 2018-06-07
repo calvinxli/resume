@@ -5,8 +5,6 @@ export const interests: IInterest[] = [
         category: 'Technologies',
         descriptions: [
             'GraphQL',
-            'React',
-            'Angular',
             'AWS',
             'Azure',
             'Apache Kafka'
@@ -15,9 +13,9 @@ export const interests: IInterest[] = [
     {
         category: 'General',
         descriptions: [
-            'Full-stack development',
             'Back-end development',
-            'Mobile development',
+            'Distributed systems',
+            'Full-stack development',
             'Machine learning',
             'Artificial intelligence'
         ]
