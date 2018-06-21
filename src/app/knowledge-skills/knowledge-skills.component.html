@@ -1,5 +1,5 @@
 <div class="card-container">
-    <mat-card *ngFor="let skillSet of skillSets">
+    <mat-card *ngFor="let skillSet of data">
         <mat-card-header>
             <mat-card-title>
                 <h2>{{skillSet.category}}</h2>
@@ -8,7 +8,7 @@
         <mat-card-content>
             <mat-chip-list class="mat-chip-list">
                 <mat-chip *ngFor="let skill of skillSet.skills" selected="true">
-                    {{skill.skill}} <span class="spacer"></span> {{skill.experience}}
+                    {{skill.skill}} <span class="spacer"></span> {{skill.competence}}
                 </mat-chip>
             </mat-chip-list>
         </mat-card-content> 

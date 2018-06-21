@@ -1,0 +1,53 @@
+[
+    {
+        "category": "Front End",
+        "skills": [
+            { "skill": "JavaScript", "competence": null },
+            { "skill": "TypeScript", "competence": null },
+            { "skill": "HTML", "competence": null },
+            { "skill": "CSS", "competence": null },
+            { "skill": "WPF", "competence": null },
+            { "skill": "Angular", "competence": null }
+        ]
+    },
+    {
+        "category": "Back End",
+        "skills": [
+            { "skill": "C#", "competence": null },
+            { "skill": ".NET", "competence": null },
+            { "skill": ".NET Core", "competence": null },
+            { "skill": "SQL", "competence": null },
+            { "skill": "Web API", "competence": null },
+            { "skill": "WCF", "competence": null },
+            { "skill": "GraphQL", "competence": null },
+            { "skill": "Node.js", "competence": null }
+        ]
+    },
+    {
+        "category": "Testing",
+        "skills": [
+            { "skill": "NUnit", "competence": null },
+            { "skill": "FakeItEasy", "competence": null },
+            { "skill": "Moq", "competence": null },
+            { "skill": "Selenium", "competence": null },
+            { "skill": "FlaUI", "competence": null }
+        ]
+    },
+    {
+        "category": "Tools",
+        "skills": [
+            { "skill": "Visual Studio", "competence": null },
+            { "skill": "SQL Server", "competence": null },
+            { "skill": "Fiddler", "competence": null },
+            { "skill": "Postman", "competence": null }
+        ]
+    },
+    {
+        "category": "Other",
+        "skills": [
+            { "skill": "Unity", "competence": null },
+            { "skill": "Fody", "competence": null },
+            { "skill": "Mono.Cecil", "competence": null }
+        ]
+    }
+]

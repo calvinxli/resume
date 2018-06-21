@@ -10,6 +10,7 @@ import {
     MatGridListModule,
     MatButtonModule
 } from '@angular/material';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { ExperienceComponent } from './experience/experience.component';
@@ -18,6 +19,7 @@ import { InterestsComponent } from './interests/interests.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { KnowledgeSkillsComponent } from './knowledge-skills/knowledge-skills.component';
 import { AboutComponent } from './about/about.component';
+
 
 @NgModule({
   declarations: [
@@ -31,6 +33,7 @@ import { AboutComponent } from './about/about.component';
   ],
   imports: [
     // AppRoutingModule,
+    HttpClientModule,
     BrowserModule,
     MatCardModule,
     MatChipsModule,

@@ -1,0 +1,21 @@
+[
+    {
+        "category": "Technologies",
+        "descriptions": [
+            "GraphQL",
+            "AWS",
+            "Azure",
+            "Apache Kafka"
+        ]
+    },
+    {
+        "category": "General",
+        "descriptions": [
+            "Back-end development",
+            "Distributed systems",
+            "Full-stack development",
+            "Machine learning",
+            "Artificial intelligence"
+        ]
+    }
+]

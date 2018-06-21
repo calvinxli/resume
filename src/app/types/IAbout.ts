@@ -1,5 +1,3 @@
-import { ILink } from './ILink';
-
 export interface IAbout {
     name: string;
     job: string;

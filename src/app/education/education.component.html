@@ -1,4 +1,4 @@
-<mat-card *ngFor="let school of education">
+<mat-card *ngFor="let school of data">
     <mat-card-header>
         <mat-card-title>
             <mat-icon class="card-title">school</mat-icon>
@@ -8,7 +8,7 @@
             <mat-icon>location_on</mat-icon>
             {{school.location}}
             <mat-icon>date_range</mat-icon>
-            {{school.startDate | date:'y MMM'}} - {{school.endDate ? (school.endDate | date:'y MMM') : 'Present'}}
+            {{school.startDate}} - {{school.endDate || 'Present'}}
         </mat-card-subtitle>
     </mat-card-header>
     <mat-card-content >

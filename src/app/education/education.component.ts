@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ISchool } from '../types/ISchool';
-import { education } from '../api/education';
+import { DataService } from '../api/DataService';
 
 @Component({
   selector: 'app-education',
@@ -8,13 +8,17 @@ import { education } from '../api/education';
   styleUrls: ['./education.component.css']
 })
 export class EducationComponent implements OnInit {
-    education: ISchool[];
+    data: ISchool[];
 
-    constructor() {
-        this.education = education;
+    constructor(private dataService: DataService) {
     }
 
     ngOnInit() {
+        this.dataService.getEducation().subscribe(
+            data => {
+                this.data = data;
+            },
+            error => alert('Error: ' + error.message)
+        );
     }
-
 }

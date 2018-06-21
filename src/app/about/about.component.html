@@ -1,26 +1,26 @@
 <mat-card>
     <mat-card-header>
         <mat-card-title>
-            <span class="about-name">{{about.name}}</span>
+            <span class="about-name">{{data.name}}</span>
         </mat-card-title>
         <mat-card-subtitle class="job">
-            <mat-icon>work</mat-icon> {{about.job}}
+            <mat-icon>work</mat-icon> {{data.job}}
         </mat-card-subtitle>
         <mat-card-subtitle class="contact">
-            <span><mat-icon>email</mat-icon> {{about.email}}</span>
-            <span><mat-icon>location_on</mat-icon> {{about.location}}</span>
-            <span *ngIf="about.phoneNumber">
-                <mat-icon>call</mat-icon> {{about.phoneNumber}}
+            <span><mat-icon>email</mat-icon> {{data.email}}</span>
+            <span><mat-icon>location_on</mat-icon> {{data.location}}</span>
+            <span *ngIf="data.phoneNumber">
+                <mat-icon>call</mat-icon> {{data.phoneNumber}}
             </span>
         </mat-card-subtitle>
         <mat-card-subtitle>
-            <span *ngIf="about.linkedIn">
-                <a href="{{about.linkedIn}}">
+            <span *ngIf="data.linkedIn">
+                <a href="{{data.linkedIn}}">
                     <i mat-icon-button class="fa fa-linkedin"></i>
                 </a>
             </span>
-            <span *ngIf="about.gitHub">
-                <a href="{{about.gitHub}}">
+            <span *ngIf="data.gitHub">
+                <a href="{{data.gitHub}}">
                     <i mat-icon-button class="fa fa-github"></i>
                 </a>
             </span>

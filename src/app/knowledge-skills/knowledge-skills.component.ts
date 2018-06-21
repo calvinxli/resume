@@ -1,6 +1,6 @@
 import { ISkillSet } from '../types/ISkillset';
-import { skillSets } from '../api/skill-sets';
 import { Component, OnInit } from '@angular/core';
+import { DataService } from '../api/DataService';
 
 @Component({
   selector: 'app-knowledge-skills',
@@ -8,13 +8,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./knowledge-skills.component.css']
 })
 export class KnowledgeSkillsComponent implements OnInit {
-    skillSets: ISkillSet[];
+    data: ISkillSet[];
 
-    constructor() {
-        this.skillSets = skillSets;
+    constructor(private dataService: DataService) {
     }
 
     ngOnInit() {
+        this.dataService.getSkillSets().subscribe(
+            data => {
+                this.data = data;
+            },
+            error => alert('Error: ' + error.message)
+        );
     }
-
 }

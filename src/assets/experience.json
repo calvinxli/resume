@@ -1,0 +1,58 @@
+[
+    {
+        "company": "3Sharp",
+        "location": "Redmond, WA",
+        "role": "Software Engineer",
+        "startDate": "2018 Feb",
+        "endDate": null,
+        "highlights": [
+            "Contribute towards release requirements of the 3Sharp Demo Platform.",
+            "Extend the Demo Platform Services by adding the capability of provisioning and managing virtual machines using Azure Resource Manager templates.",
+            "Design and implement a system which allows a cloud-hosted service to control and monitor active virtual machines using Azure Service Bus.",
+            "Create REST endpoints using Web API.",
+            "Create and update Angular components for the Microsoft Demos Portal."
+        ],
+        "technologies": "C#, .NET, .NET Core, Web API, Azure, Cosmos DB, Service Bus, Angular"
+    },
+    {
+        "company": "Grass Valley",
+        "location": "Hillsboro, OR",
+        "role": "Software Engineer",
+        "startDate": "2016 Apr",
+        "endDate": "2018 Jan",
+        "highlights": [
+            "Contribute towards release requirements of the GV STRATUS software.",
+            "Implement new features for GV STRATUS using C#, .NET, WCF RESTful services, WPF and SQL Server.",
+            "Debug, design and implement new features for existing WPF applications.",
+            "Create an IL weaver that can automatically modify and add data members to data contracts.",
+            "Create an automation framework using Selenium for testing the GV STRATUS Web Client. Reduced manual testing effort and made it easier to create/maintain tests.",
+            "Create unit tests using NUnit, Unity, and FakeItEasy."
+        ],
+        "technologies": "C#, .NET, WCF, WPF, SQL Server, Fody, Selenium, FlaUI, NUnit, Unity, FakeItEasy"
+    },
+    {
+        "company": "Intel",
+        "location": "Hillsboro, OR",
+        "role": "Software Engineer Intern (MECOP)",
+        "startDate": "2015 June",
+        "endDate": "2015 Dec",
+        "highlights": [
+            "Implement a feature that uses UART (universal asynchronous receiver/transmitter) to send and receive debug information from a wireless charging board. Save firmware developer hours by giving hardware validation engineers more control over the firmware.",
+            "Automate the process of sending/receiving data through UART using python.",
+            "Debug and enhance multi-threaded WPF applications."
+        ],
+        "technologies": "C#, .NET, WPF, Python, C"
+    },
+    {
+        "company": "ON Semiconductor",
+        "location": "Gresham, OR",
+        "role": "Software Development Engineer Intern (MECOP)",
+        "startDate": "2014 Mar",
+        "endDate": "2014 Sep",
+        "highlights": [
+            "Create web forms using ASP.NET and C#. Automate the process of submitting wafer defect reports; improve the effectiveness and efficiency of the quality control process. Convert web applications from PHP to ASP.NET.",
+            "Eliminate the need of a third party software. Create a C# console app that parses wafer data and uploads the resulting files to a server via FTP where the data will be used to analyze silicon wafer defects."
+        ],
+        "technologies": "C#, .NET, ASP.NET, JavaScript, JQuery, PHP"
+    }
+]

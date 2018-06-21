@@ -2,7 +2,7 @@ export interface ISchool {
     name: string;
     location: string;
     degree: string;
-    startDate: Date;
-    endDate: Date;
+    startDate: string;
+    endDate: string;
     gpa: Number;
 }
